@@ -29,12 +29,12 @@ while True:
 
         for hand_landmarks in results.multi_hand_landmarks:
 
-            # Palm center
+            
             palm = hand_landmarks.landmark[9]
             cx = int(palm.x * w)
             cy = int(palm.y * h)
 
-            # Thumb and index for size control
+            
             thumb = hand_landmarks.landmark[4]
             index = hand_landmarks.landmark[8]
 
@@ -51,7 +51,7 @@ while True:
 
             points = []
 
-            # Wavy plasma boundary
+
             for angle in range(0,360,8):
 
                 rad = np.radians(angle)
@@ -65,20 +65,20 @@ while True:
 
                 points.append((x,y))
 
-            # Draw energy wave boundary
+            
             for i in range(len(points)-1):
                 cv2.line(frame, points[i], points[i+1], (0,255,255),3)
 
-            # Strong glow layer
+            
             cv2.circle(glow_layer,(cx,cy),radius+50,(0,255,255),-1)
 
-            # Bright core
+            
             cv2.circle(frame,(cx,cy),int(radius*0.6),(255,255,255),-1)
 
-            # Inner orb
+            
             cv2.circle(frame,(cx,cy),radius,(0,255,255),2)
 
-    # Apply glow blur
+
     glow_layer = cv2.GaussianBlur(glow_layer,(0,0),35)
 
     frame = cv2.addWeighted(frame,1,glow_layer,0.7,0)

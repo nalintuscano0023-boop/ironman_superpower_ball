@@ -1,4 +1,4 @@
-Iron Man Wavy Energy Ball ✨⚡
+Iron Man Wavy Energy Ball 
 
 Author: Nalin Tuscano
 
@@ -16,7 +16,7 @@ When the camera detects your hand:
 
  The energy ball follows your hand movement
  The size of the ball changes based on your hand gesture
- The ball has a wavy animated boundary that creates a   plasma-like energy effect
+ The ball has a wavy animated boundary that creates a   plasma like energy effect
  A glow layer with blur gives the ball a strong neon glow
 
 Even in a darker room, the ball still appears bright due to the glow rendering effect.
@@ -42,7 +42,7 @@ Technologies Used
  NumPy
  Computer Vision concepts
 
-These technologies allow the project to combine AI-based hand detection with dynamic graphical effects.
+These technologies allow the project to combine AI based hand detection with dynamic graphical effects.
 
 
 

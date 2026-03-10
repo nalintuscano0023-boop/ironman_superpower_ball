@@ -1,0 +1,21 @@
+# Window settings
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
+
+# Ball settings
+BALL_RADIUS = 20
+BALL_SPEED_X = 7
+BALL_SPEED_Y = 7
+
+# Paddle settings
+PADDLE_WIDTH = 200
+PADDLE_HEIGHT = 20
+PADDLE_Y_OFFSET = 50
+
+# Colors (BGR)
+BALL_COLOR = (0, 255, 255)
+PADDLE_COLOR = (255, 0, 0)
+TEXT_COLOR = (255, 255, 255)
+
+# Camera
+CAMERA_INDEX = 0

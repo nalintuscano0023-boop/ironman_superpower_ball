@@ -2,9 +2,9 @@ Iron Man Wavy Energy Ball
 
 Author: Nalin Tuscano
 
-This project is a hand-gesture controlled interactive energy ball built using Python, OpenCV, and MediaPipe. The system uses your webcam to detect your hand in real time and generates a glowing wavy plasma ball that follows your hand movement.
+This project is a hand gesture controlled interactive energy ball built using Python, OpenCV, and MediaPipe. The system uses your webcam to detect your hand in real time and generates a glowing wavy plasma ball that follows your hand movement.
 
-The idea behind this project was to experiment with computer vision + creative visual effects, turning simple hand tracking into something that feels like controlling an Iron Man–style energy orb.
+The idea behind this project was to experiment with computer vision + creative visual effects, turning simple hand tracking into something that feels like controlling an Iron Man style energy orb.
 
 
 
@@ -62,7 +62,7 @@ Installation
 Install the required Python libraries:
 
 
-pip install opencv-python mediapipe numpy
+pip install opencv python mediapipe numpy
 
 
 
